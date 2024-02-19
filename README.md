@@ -30,7 +30,7 @@
 - [Pooya Parsa](https://github.com/pi0)
 
 ## What is added in this fork?
-> The Dynamic host option made by NicoPennec
+> The Dynamic host option made by Rylax
 
 Add the sitemap configuration in your nuxt.config.js file:
 
