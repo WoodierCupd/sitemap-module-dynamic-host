@@ -30,4 +30,16 @@
 - [Pooya Parsa](https://github.com/pi0)
 
 ## What is added in this fork?
-> The Dynamic host by NicoPennec 
+> The Dynamic host option made by NicoPennec
+
+Add the sitemap configuration in your nuxt.config.js file:
+
+```js
+sitemap: {
+  dynamicHost: true,
+  routes: async (host) => {
+    // Now you have access to the host variable
+    // Implement logic to generate sitemap routes based on the host
+  }
+}
+```
